@@ -1,4 +1,14 @@
 async function CreateWhatsappChatWidget(
+let styleElem = document.createElement('style');
+styleElem.innerText = `
+.whatsapp-widget *,
+.chat-widget * {
+    direction: rtl;
+    text-align: right;
+}
+`;
+document.head.appendChild(styleElem);
+
   option = {
     brandSetting: {
       autoShow: true,
