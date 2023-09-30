@@ -149,11 +149,7 @@ async function CreateWhatsappChatWidget(
                   </a>
               
     
-                <div class='wa-chat-box-poweredby'>
-                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block">
-                      <path d="M3 15V9H0L5 0V6H8L3 15Z" fill="#999999" />
-                    </svg>
-                    cchr.org.il <a href="https://www.wati.io/?utm_source=whatsapp-widget" target="_blank" class="wa-chat-box-poweredby-link">עמותת מגן לזכויות אנוש</a>
+                <div class='wa-chat-box-poweredby'>cchr.org.il <a href="https://cchr.org.il/?utm_source=whatsapp-widget" target="_blank" class="wa-chat-box-poweredby-link">עמותת מגן לזכויות אנוש</a>
                 </div>
             </div>
             `
