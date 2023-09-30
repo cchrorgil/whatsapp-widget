@@ -25,7 +25,7 @@
                     "backgroundColor":"#00e785",
                     "ctaText":"לחץ כאן 🟢",
                     "borderRadius":"25",
-                    "autoShow":true,
+                    "autoShow":false,
                     "phoneNumber":"972585229989"
                 }
                 };
