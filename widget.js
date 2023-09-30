@@ -26,6 +26,16 @@ async function CreateWhatsappChatWidget(
     enabled: false,
   }
 ) {
+  let styleElemScoped = document.createElement('style');
+styleElemScoped.innerText = `
+#whatsapp-chat-widget * {
+    direction: rtl;
+    text-align: right;
+}
+`;
+document.head.appendChild(styleElemScoped);
+
+
   if (option.enabled == false) {
     return;
   }
